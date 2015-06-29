@@ -1,0 +1,9 @@
+{
+  "name": "SportsStore",
+  "description": "Sports Store App",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect": "3.4.0",
+    "serve-static": "*"
+  }
+}
