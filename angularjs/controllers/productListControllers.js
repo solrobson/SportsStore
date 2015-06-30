@@ -16,7 +16,7 @@ angular.module("sportsStore")
             $scope.selectedPage = 1;
         }
 
-        $scope.selectedPage = function (newPage) {
+        $scope.selectPage = function (newPage) {
             $scope.selectedPage = newPage;
         }
 
@@ -29,7 +29,7 @@ angular.module("sportsStore")
             return selectedCategory == category ? productListActiveClass : "";
         }
 
-        $scope.getPageCLass = function (page) {
+        $scope.getPageClass = function (page) {
             return $scope.selectedPage == page ? productListActiveClass : "";
         }
     });
